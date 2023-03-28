@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <title>Pacify -Your peace destination</title>
+        <link rel="stylesheet" href="pacify.css">
+        </head>
+<body>
+    <nav>
+      <div class="logo"><img src="logo.png" width="45px"><h1>Pacify</h1></div>
+        <ul class="nav-ul">
+          <li id="hm"><i class="fa-solid fa-house"></i><a>Home</a></li>
+          <li id="src"><i class="fa-solid fa-magnifying-glass"></i><a>Search</a></li>
+          <li id="lng"><i class="fa-solid fa-language"></i><a>Language</a></li>
+          <li id="liksng"><i class="fa-solid fa-heart"></i><a>Liked songs</a></li>
+
+        </ul>
+    </nav>
+  <div class="body">
+    <div class="contents">
+    <div class="home">
+        <div class="home_header" style="background-image: linear-gradient(
+    180deg,
+    /* hsl(0deg 80% 54%) 0%, */
+    /* hsl(0deg 71% 51%) 0%, */
+    hsl(0deg 67% 48%) 0%,
+    hsl(0deg 67% 44%) 1%,
+    hsl(0deg 67% 41%) 2%,
+    hsl(0deg 67% 36%) 4%,
+    hsl(0deg 67% 31%) 7%,
+    hsl(0deg 67% 26%) 11%,
+    hsl(1deg 66% 18%) 20%,
+    hsl(60deg 14% 3%) 65%
+  );  ">All songs</div>
+        
+    </div>
+        <div class="search">
+            <div class="srcbox">
+                <div class="srcin"><i class="fa-solid fa-magnifying-glass"></i><input type="text" id="srcsng" placeholder="Search a pacifying music..."></div>
+            </div>
+            <div class="srcbody">
+
+
+            </div>
+        </div>
+        <div class="lang">
+            <div class="headerimg">
+                <h1>Languages</h1>
+            </div>
+            <div class="langbody">
+             <div class="langpar">
+                <div class="lang-card">
+                    <img src="tamil.jpg">
+                    <h2>Tamil</h2>
+                    <div class="playbtn" id="Tamil"><i class="fa-solid fa-play"></i></div>
+                </div>
+                <div class="lang-card">
+                    <img src="eng.webp">
+                    <h2>English</h2>
+                    <div class="playbtn" id="English"><i class="fa-solid fa-play"></i></div>
+                </div>
+                <div class="lang-card">
+                    <img src="telugu.jpg">
+                    <h2>Telugu</h2>
+                    <div class="playbtn" id="Telugu"><i class="fa-solid fa-play"></i></div>
+                </div>
+                <div class="lang-card">
+                    <img src="hindi.jpg">
+                    <h2>Hindi</h2>
+                    <div class="playbtn" id="Hindi"><i class="fa-solid fa-play"></i></div>
+                </div>
+             </div>
+            </div>
+        </div>
+    
+     <div class="liked">
+        <div class="topcover">
+         <div class="line">
+            <img src="liked.jpg" width="180px" height="180px">
+            <h1>Liked Songs</h1>
+            <i class="fa-sharp fa-solid fa-square-heart"></i>
+         </div>
+        </div>
+        <div class="likebody">
+
+        </div>
+
+    </div>
+    </div>
+
+    <div class="bottom">
+        <div class="song">
+        <input type="range" name="range" id="progressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step" id="previous" ></i>
+            <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-circle-pause" id="pause"></i>
+            <i class="fa-solid fa-forward-step" id="next"></i>
+            <div class="like">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+        </div>
+        </div>
+        <div class="songInfo">
+            <img src="posters/1.jpg" id="song-image"/>
+        <br>
+
+            <span>
+            <span id="masterSongName">Mother song - Nan paartha mudhal</span>
+            <span id="masterArtistName"></span>
+            </span>
+        </div>
+        
+         </div>
+  </div>
+    
+    <script src="pacify.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
